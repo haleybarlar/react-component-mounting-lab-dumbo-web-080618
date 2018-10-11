@@ -11,13 +11,10 @@ class App extends Component {
 
 
   //Your code here:
-
-
-
-
-
-
-
+  // In App, write a componentDidMount method that invokes the existing handleAddTimer class method.
+  componentDidMount() {
+    this.handleAddTimer()
+  }
 
 
   // No need to modify anything in render or the class methods below
